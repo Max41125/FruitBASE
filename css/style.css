@@ -1,0 +1,250 @@
+body {
+	font-family:"Arial";
+	font-size:11px;
+	color: white;
+}
+
+h1 {
+	text-transform:uppercase;
+	color:#ffe08d;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.hborder {
+	width:250px;
+	
+	position:relative;
+	top:115px;
+	left:200px;
+	
+	padding-bottom:7px;
+	
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+	border-bottom-color:#ffe08d
+}
+
+
+
+#header {
+	font-size:24px;
+	font-family:"Trebuchet MS";
+}
+
+#header div {
+	position:relative;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#sidebar {
+	padding-top:7px;
+}
+
+#sidebar ul {
+	width:100%;
+}
+
+#sidebar li {
+	display:block;
+	background-image:url(../images/m-bg.jpg);
+	width:172px;
+	height:25px;
+	text-align:right;
+}
+
+#sidebar li.first {
+	background-image:url(../images/m-1st.jpg);
+	height:27px;
+}
+
+#sidebar li.last {
+	background-image:url(../images/m-lst.jpg);
+	height:27px;
+}
+
+#sidebar li.first a {
+	margin-top: 6px;
+}
+
+#sidebar a {
+	display:inline-block;
+	margin-top: 5px;
+	margin-right:25px;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#sidebar a:hover {
+	text-decoration:underline;
+}
+
+#sidebar div {
+	text-align:justify;
+	background-image:url(../images/shr.jpg);
+	background-repeat:no-repeat;
+	margin-top:7px;
+	padding-top:20px;
+	padding-left:2px;
+	padding-right:1px;
+}
+
+#content {
+	background-image:url(../images/c-bg.jpg);
+	background-repeat:no-repeat;
+	padding-top:9px;
+}
+
+#content div {
+	margin:10px;
+}
+
+a {
+	color: white;
+}
+#content a {
+	color: #f5e896;
+}
+#content a:hover {
+	text-decoration:underline;
+	color: #fecb56;
+}
+
+#footer div.copy { 
+	text-align:right;
+	color: #ffe08e;
+}
+
+iframe {
+	margin:10px 15px;
+}
+
+#footer div.bmenu {
+	color: white;
+	padding-top:20px;
+	text-align:center;
+}
+
+#footer a{
+	text-decoration:none;
+	padding:3px;
+}
+#footer a:hover {
+	text-decoration:underline;
+}
+
+.hf {
+	color: white;
+	left:25px;
+	top:28px;
+	z-index:3;
+}
+.hb {
+	color: #3b1d0a;
+	left:27px;
+	top:2px;	
+}
+
+
+div.w1 {
+	width: 100%;
+	overflow:hidden;
+	background-image:url(../images/c-bg-line.jpg);
+	background-repeat:repeat-y;
+}
+
+div.w2 {
+	width: 100%;
+	overflow:hidden;
+	background-image:url(../images/c-bg-bottom.jpg);
+	background-position:bottom right;
+}
+.my-abricos{
+	display: block; 
+	overflow:hidden;
+    text-align: center;
+	padding-left: 3cm;
+}
+.people {
+	width: 28%;
+	border: 1px solid #f5f5f5; /* Рамка вокруг фотографии */
+    padding: 5px; /* Расстояние от картинки до рамки */
+    background: rgb(82, 24, 24); /* Цвет фона */
+    margin-right: 13px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.sign{
+	float: center; /* Выравнивание по правому краю */
+    border: 0.5px solid #dddf6d; /* Параметры рамки */
+    padding: 0,5px; /* Поля внутри блока */
+    margin: 2px 0 5px 5px; /* Отступы вокруг */
+    background: rgb(82, 24, 24); /* Цвет фона */ 
+	font-family:"Times new Roman";
+	font-size:20px;
+	text-align: center;
+	word-spacing: 110px;
+}
+.best{
+	font-family:"Times new Roman";
+	font-size:20px;
+	text-align: center;
+	float: center
+}
+.container {
+    border: 2px solid rgb(82, 29, 29);
+    background-color: rgb(143, 23, 23);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+.table {
+	width: 80%;
+    margin-right: 13px; /* Отступ справа */
+    margin-bottom: 50px; /* Отступ снизу */
+}
+.container2 
+{ 
+	border: 2px solid rgb(82, 29, 29);
+    background-color: rgb(143, 23, 23);
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+	font-size:15px;
+	text-align: center;
+
+}
